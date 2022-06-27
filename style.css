@@ -1,0 +1,22 @@
+#biggest {
+    padding: 10px;
+    margin: 10px;
+    background-color: lightgrey;
+    border: transparent;
+}
+#medium {
+    padding: 40px;
+    margin: 10px;
+    background-color:green;
+    border: transparent;
+    justify-content: center;
+    justify-content: space-between;
+}
+#third {
+    padding: 40px;
+    margin: 10px;
+    background-color: blue;
+    border: transparent;
+    width: 150px;
+    height: 300px;
+}
