@@ -19,23 +19,59 @@
 #bottom {
   height: auto;
   border: transparent;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 #fourth {
   padding: 40px;
   margin: 10px;
   background-color: blue;
   border: transparent;
-  width: 200px;
-  height: 300px;
-  justify-content: right;
+  width: 400px;
+  height: 500px;
+
 }
-#A,
-#B,
-#C {
-  padding: 10px;
-  margin: 5px;
-  background-color: black;
+#fifth {
+  padding: 40px;
+  margin: 10px;
+  background-color: rgb(255, 0, 0);
   border: transparent;
-  width: 100px;
-  height: 100px;
+  width: 1600px;
+  height: 600px;
+  justify-content: left;
+
+
+}
+#MOM {
+  background-color: transparent;
+  width: 100%;
+  height: auto;
+  border: transparent;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+#D,
+#E,
+#F {
+  padding: 10px;
+  margin: 10px;
+  background-color:yellow;
+  border: transparent;
+  width: 300px;
+  height: 300px;
+}
+#H {
+  padding: 20px;
+  margin: 20px;
+  background-color:rgb(75, 31, 75);
+  border: transparent;
+  width: 1500px;
+  height: 200px;
 }
